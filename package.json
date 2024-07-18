@@ -1,0 +1,22 @@
+{
+  "name": "react-app-vehicle-management",
+  "version": "1.0.0",
+  "description": "Basic React BoilerPlate Code",
+  "main": "index.js",
+  "scripts": {
+    "test": "no test specified\\ && exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "Node",
+    "React"
+  ],
+  "author": "Vedha",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
