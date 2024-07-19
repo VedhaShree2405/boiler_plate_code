@@ -7,7 +7,11 @@ Steps to add React-boiler-plate-code
 5. Give npm init command to install package.json file
 6. npm install express command to install package.lock.json(express is a minimal node js web application framework that provides set of features for web and mobile application, client,server application)
 7. Create a static html file index.html for the basic html boiler plate code
-8. Create file webserver.js
+8. Create file webserver.js which consists of start and stop function
+9. Create a start up file -src/server/index.js
+10. Install babel 
+11. Update build commands in package.json
+
 
 
 

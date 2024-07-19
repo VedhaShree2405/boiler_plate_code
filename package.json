@@ -2,10 +2,14 @@
   "name": "react-app-vehicle-management",
   "version": "1.0.0",
   "description": "Basic React BoilerPlate Code",
-  "main": "index.js",
-  "scripts": {
-    "test": "no test specified\\ && exit"
+  "main": "./dist/server.js",
+ "scripts": {    
+  "build": "npm run build-server && npm run build-client",    
+  "build-server": "babel src/server --out-dir ./dist",   
+   "build-client": "babel src/client --copy-files --out-dir ./dist/public",   
+  "start": "node ./dist/index.js"
   },
+ 
   "repository": {
     "type": "git",
     "url": "git"
@@ -18,5 +22,9 @@
   "license": "Apache-2.0",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }
